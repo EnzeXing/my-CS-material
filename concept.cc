@@ -40,6 +40,7 @@ int main() {
   int ** pp = &p; // pointer to pointer! The value of pp is the address of p
   cout << "The value of pp is " << endl; // Same as &p
   *pp = &x; // *pp is p, so p points to x again.
-  
+
+  // end  
   return 0;
 }
